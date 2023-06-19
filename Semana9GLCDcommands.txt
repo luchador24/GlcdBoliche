@@ -1,0 +1,27 @@
+Introducciones Principales
+GLCD = GraphicLCD 128*64
+
+Glcd_Init();
+Glcd_Fill(0); balnca (1) gris (2)negra  //0a2
+Glcd_Dot(x,y,0); //Punto
+Glcd_Line(xo,yo,xf,yf,c);
+Glcd_V_Line(yo,yf,x,c);
+Glcd_H_Line(yo,yf,y,c);
+
+
+Glcd_Rectangle(xo,yo,xf,yf,c);
+Glcd_Box(xo,yo,xf,yf,c);
+Glcd_Circle(x,y,radio,c);	//vacio solamente el extremo
+Glcd_Circle_Fill(x,y,radio,c);		//rellene
+Glcd_Char('A', x, page, c);		//escribir una letra en pantalla, tiene 8 paginas;
+Glcd_Text(''Hoa'',x,page,c);
+
+
+declarar variable entera antes
+for(i=20,i<100,i++){
+Glcd_Rectangle(i,yo,i+60,yf,c);
+Gl
+}
+
+
+
